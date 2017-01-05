@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.user.sqlitecrudapp.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="@android:drawable/alert_light_frame"
+        android:id="@+id/nameId"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surname"
+        android:background="@android:drawable/alert_light_frame"
+        android:id="@+id/surnameId"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks"
+        android:id="@+id/marksId"
+        android:background="@android:drawable/alert_light_frame"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:id="@+id/insertBtnId"
+        android:text="Insert"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:id="@+id/readBtnId"
+        android:text="Read"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Must need ID for update or Delete"
+        android:id="@+id/idId"
+        android:background="@android:drawable/alert_light_frame"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:id="@+id/updateBtnId"
+        android:text="Update"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:id="@+id/deleteBtnId"
+        android:text="Delete"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+
+</LinearLayout>
